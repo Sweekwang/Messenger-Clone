@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		20A33E3D2882D5E200758686 /* MessagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A33E3C2882D5E200758686 /* MessagerApp.swift */; };
-		20A33E3F2882D5E200758686 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A33E3E2882D5E200758686 /* ContentView.swift */; };
+		20A33E3F2882D5E200758686 /* ConversionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A33E3E2882D5E200758686 /* ConversionsView.swift */; };
 		20A33E412882D5E400758686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A33E402882D5E400758686 /* Assets.xcassets */; };
 		20A33E442882D5E400758686 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A33E432882D5E400758686 /* Preview Assets.xcassets */; };
+		20A33E502882D96C00758686 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A33E4F2882D96C00758686 /* LoginView.swift */; };
+		20A33E522882D97800758686 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A33E512882D97800758686 /* RegisterView.swift */; };
+		20A33E542882DA4000758686 /* PhotoViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A33E532882DA4000758686 /* PhotoViewerView.swift */; };
+		20A33E562882DA5000758686 /* VideoViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A33E552882DA5000758686 /* VideoViewerView.swift */; };
+		20A33E582882DA7000758686 /* NewConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A33E572882DA7000758686 /* NewConversionView.swift */; };
+		20A33E5A2882DA7B00758686 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A33E592882DA7B00758686 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20A33E392882D5E200758686 /* Messager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A33E3C2882D5E200758686 /* MessagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagerApp.swift; sourceTree = "<group>"; };
-		20A33E3E2882D5E200758686 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20A33E3E2882D5E200758686 /* ConversionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionsView.swift; sourceTree = "<group>"; };
 		20A33E402882D5E400758686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20A33E432882D5E400758686 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20A33E4F2882D96C00758686 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		20A33E512882D97800758686 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		20A33E532882DA4000758686 /* PhotoViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerView.swift; sourceTree = "<group>"; };
+		20A33E552882DA5000758686 /* VideoViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewerView.swift; sourceTree = "<group>"; };
+		20A33E572882DA7000758686 /* NewConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversionView.swift; sourceTree = "<group>"; };
+		20A33E592882DA7B00758686 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +63,11 @@
 		20A33E3B2882D5E200758686 /* Messager */ = {
 			isa = PBXGroup;
 			children = (
-				20A33E3C2882D5E200758686 /* MessagerApp.swift */,
-				20A33E3E2882D5E200758686 /* ContentView.swift */,
-				20A33E402882D5E400758686 /* Assets.xcassets */,
+				20A33E4E2882D75000758686 /* Resources */,
+				20A33E4D2882D74700758686 /* ViewModels */,
+				20A33E4C2882D73D00758686 /* Models */,
+				20A33E4B2882D73500758686 /* Views */,
+				20A33E4A2882D72600758686 /* Scenes */,
 				20A33E422882D5E400758686 /* Preview Content */,
 			);
 			path = Messager;
@@ -65,6 +79,50 @@
 				20A33E432882D5E400758686 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20A33E4A2882D72600758686 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				20A33E3C2882D5E200758686 /* MessagerApp.swift */,
+				20A33E3E2882D5E200758686 /* ConversionsView.swift */,
+				20A33E4F2882D96C00758686 /* LoginView.swift */,
+				20A33E512882D97800758686 /* RegisterView.swift */,
+				20A33E532882DA4000758686 /* PhotoViewerView.swift */,
+				20A33E552882DA5000758686 /* VideoViewerView.swift */,
+				20A33E572882DA7000758686 /* NewConversionView.swift */,
+				20A33E592882DA7B00758686 /* ProfileView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		20A33E4B2882D73500758686 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20A33E4C2882D73D00758686 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20A33E4D2882D74700758686 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		20A33E4E2882D75000758686 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20A33E402882D5E400758686 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A33E3F2882D5E200758686 /* ContentView.swift in Sources */,
+				20A33E5A2882DA7B00758686 /* ProfileView.swift in Sources */,
+				20A33E562882DA5000758686 /* VideoViewerView.swift in Sources */,
+				20A33E502882D96C00758686 /* LoginView.swift in Sources */,
+				20A33E522882D97800758686 /* RegisterView.swift in Sources */,
+				20A33E3F2882D5E200758686 /* ConversionsView.swift in Sources */,
+				20A33E542882DA4000758686 /* PhotoViewerView.swift in Sources */,
 				20A33E3D2882D5E200758686 /* MessagerApp.swift in Sources */,
+				20A33E582882DA7000758686 /* NewConversionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +337,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +368,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

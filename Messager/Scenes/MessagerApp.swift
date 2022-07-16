@@ -11,7 +11,7 @@ import SwiftUI
 struct MessagerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ConversionsView()
         }
     }
 }
